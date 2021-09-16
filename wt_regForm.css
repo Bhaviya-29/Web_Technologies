@@ -1,0 +1,36 @@
+body{
+    background-color:rgba(238, 175, 222, 0.336);
+    padding-top:1vh;
+}
+.container{
+    width: 300px;
+    height: auto;
+    padding: 40px 30px;
+    background-color: rgba(230, 47, 184, 0.411);
+    border-radius: 10px;
+    box-shadow: 3px 0 2px 0 rgba(255, 0, 221, 0.582);
+    margin: auto;
+    position: relative;
+}
+ul.list{
+    list-style-type: none;
+    text-align:left;
+}
+ul.list li {
+    width: 250px;
+    margin-bottom: 15px; 
+}
+ul.list li input{
+    width: 200px;
+    text-align: left;
+    padding: 8px 0px;
+    background-color: seashell;
+    border-radius: 5px;
+}
+ul.list li input[type="button"]{
+    float: left;
+    width: 30%;
+    background-color: lightgrey;
+    color: darkslategray;
+}
+

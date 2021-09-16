@@ -1,0 +1,38 @@
+body{
+    background-color:lightcyan;
+    padding-top:20vh;
+}
+.container{
+    width: 300px;
+    height: auto;
+    padding: 40px 30px;
+    background-color: paleturquoise;
+    border-radius: 10px;
+    box-shadow: 3px 0 2px 0 cyan;
+    margin: auto;
+    position: relative;
+}
+ul.list{
+    list-style-type: none;
+    text-align:left;
+}
+ul.list li {
+    width: 250px;
+    margin-bottom: 15px; 
+}
+ul.list li input{
+    width: 200px;
+    text-align: left;
+    padding: 8px 0px;
+    background-color: seashell;
+    border-radius: 5px;
+}
+ul.list li input[type="button"]{
+    background-color: lightgrey;
+    color: darkslategray;
+}
+ul.list li input[type="checkbox"]{
+    float: left;
+    width: 10%;
+}
+    
